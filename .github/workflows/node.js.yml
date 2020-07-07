@@ -1,14 +1,20 @@
-name: Basic TestCafe Workflow
+name: Target Multiple Node.js Versions and Operating Systems
 on: [push]
-
 
 jobs:
   build:
-    name: Run TestCafe Tests
-    runs-on: windows-latest
+    name: Run Tests Across Node.js Versions and Operating Systems
+    runs-on: $
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [8, 10, 12]
     steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: $
       - uses: actions/checkout@v1
-      - name: Install TestCafe from 'npm' and Run Tests
+      - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
-        with: 
+        with:
           args: "chrome tests"
