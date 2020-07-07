@@ -4,10 +4,10 @@ on: [push]
 jobs:
   build:
     name: Run TestCafe Tests
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v1
       - name: Install TestCafe from 'npm' and Run Tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome tests"
+          args: "chrome:headles tests"
