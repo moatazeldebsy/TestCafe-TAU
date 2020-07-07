@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     name: Run TestCafe Tests
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v1
       - name: Install TestCafe from 'npm' and Run Tests
