@@ -39,7 +39,7 @@ test("Place Order E2E Tests", async (t) => {
     await t
     .click(searchresults.productTitle)
     .expect(getURL()).contains('apple-macbook-pro-13-inch')
-    .expect(productdetails.productPrice.withText('$1,800.00').exists).ok()
+    .expect(productdetails.productPrice.exists).ok()
     .selectText(productdetails.prductQuantity).pressKey("delete")
     .typeText(productdetails.prductQuantity,'3')
     .click(productdetails.addToCart)
