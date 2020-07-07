@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    uninitialized: 'uninitialized',
+    pendingInitialization: 'pendingInitialization',
+    initialized: 'initialized'
+};
+module.exports = exports.default;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGhhc2UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvcm9sZS9waGFzZS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGtCQUFlO0lBQ1gsYUFBYSxFQUFVLGVBQWU7SUFDdEMscUJBQXFCLEVBQUUsdUJBQXVCO0lBQzlDLFdBQVcsRUFBWSxhQUFhO0NBQ3ZDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCB7XG4gICAgdW5pbml0aWFsaXplZDogICAgICAgICAndW5pbml0aWFsaXplZCcsXG4gICAgcGVuZGluZ0luaXRpYWxpemF0aW9uOiAncGVuZGluZ0luaXRpYWxpemF0aW9uJyxcbiAgICBpbml0aWFsaXplZDogICAgICAgICAgICdpbml0aWFsaXplZCdcbn07XG4iXX0=
