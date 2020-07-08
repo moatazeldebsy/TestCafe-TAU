@@ -1,0 +1,14 @@
+{
+  "name": "chapter7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moataz Nabil",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.8.7"
+  }
+}
