@@ -21,7 +21,6 @@ The course is divided into the 10 different chapters and each chapter has an ass
 
 * `Chapter 3` Branch --  Getting Started with TestCafe
 * `Chapter 4` Branch --  Exploring TestCafe
-* `Chapter 5` Branch --  TestCafe Test Execution
 * `Chapter 6` Branch --  Deep Dive with TestCafe
 * `Chapter 7` Branch --  Page Object Model with TestCafe
 * `Chapter 8` Branch --  Data-Driven Tests with TestCafe
@@ -31,7 +30,6 @@ The course is divided into the 10 different chapters and each chapter has an ass
 * `Chapter 12` Branch -- Integrate TestCafe with GitHub Actions
 * `Chapter 13` Branch -- Run TestCafe Tests on SauceLabs
 * `Chapter 14` Branch -- Use TestCafe Docker Image
-* `Chapter 15` Branch -- Run TestCafe Tests on Remote Device
 
 You need to checkout the branch depending on the chapter you are on.
 
