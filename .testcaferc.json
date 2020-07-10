@@ -1,5 +1,5 @@
 {
-    "browsers": "chrome --start-fullscreen",
+    "browsers": "chrome",
     "src": "tests",
     "reporter": "list",
     "screenshots": {
