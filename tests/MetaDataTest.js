@@ -1,31 +1,20 @@
-fixture.meta('version','1')("First Fixture with TestCafe")
-    .page("https://devexpress.github.io/testcafe/example/");
-test.meta('env', 'production')("First Test with TestCafe", async t => {
-    await t
-        .typeText('#developer-name','TAU')
-        .click('input#macos')
-        .click('#submit-button');
-    });
+fixture.meta('version','1')("First Fixture")
+    .page("http://devexpress.github.io/testcafe/");
 
-test("Second Test with TestCafe", async t => {
+test.meta('env','production')
+.page("https://devexpress.github.io/testcafe/example/")
+("First Test", async t =>{
     await t
-        .typeText('#developer-name','TAU')
-        .click('input#macos')
-        .click('#submit-button');
-        });
+        .typeText("#developer-name","TAU")
+        .click("#macos")
+        .click("#submit-button");
+});
 
-fixture.meta('version','2')("Fixture with TestCafe")
-        .page("https://devexpress.github.io/testcafe/example/");
-test.meta('env', 'production')("First Test with TestCafe", async t => {
-        await t
-            .typeText('#developer-name','TAU')
-            .click('input#macos')
-            .click('#submit-button');
-        });
-    
-test("Second Test with TestCafe", async t => {
-        await t
-            .typeText('#developer-name','TAU')
-            .click('input#macos')
-            .click('#submit-button');
-            });
+test
+.page("https://devexpress.github.io/testcafe/example/")
+("Second Test", async t =>{
+    await t
+        .typeText("#developer-name","TAU")
+        .click("#macos")
+        .click("#submit-button");
+});
