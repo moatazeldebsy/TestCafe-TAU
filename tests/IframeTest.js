@@ -1,17 +1,17 @@
-import { Selector } from 'testcafe';
+import {Selector} from 'testcafe';
 
-const iframe = 'iframe#mce_0_ifr'
-const textArea = 'body#tinymce.mce-content-body'
+const iframeName = Selector('iframe#mce_0_ifr');
+const textArea = Selector('body#tinymce.mce-content-body');
 
-fixture `Example`
-    .page `https://the-internet.herokuapp.com/iframe`;
+fixture("Iframe Fixutre")
+.page("https://the-internet.herokuapp.com/iframe");
 
-test('Working With iframe test', async t => {
+test("iFrame test", async t =>{
     await t
-        .switchToIframe(iframe)
+        .switchToIframe(iframeName)
         .click(textArea)
         .pressKey('ctrl+a delete')
-        .typeText(textArea,'Hello Test Automation University!')
-        .expect(textArea).contains('Test')
+        .typeText(textArea,'Hello from TAU')
+        .expect(textArea.innerText).contains('TAU')
         .switchToMainWindow();
 });
