@@ -1,13 +1,11 @@
-import { Selector } from 'testcafe';
+fixture("First Fixture")
+    .page("http://devexpress.github.io/testcafe/");
 
-fixture `Test Speed`
-    .page `http://devexpress.github.io/testcafe/example/`;
-
-const nameInput = Selector('#developer-name');
-
-test(`Test Speed`, async t => {
+test.page("https://devexpress.github.io/testcafe/example/")
+("First Test", async t =>{
     await t
-        .typeText(nameInput, 'Peter')
         .setTestSpeed(0.1)
-        .typeText(nameInput, ' Parker');
+        .typeText("#developer-name","TAU")
+        .click("#macos")
+        .click("#submit-button");
 });
