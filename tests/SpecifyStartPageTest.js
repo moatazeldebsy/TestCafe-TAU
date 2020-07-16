@@ -1,14 +1,10 @@
-import { Selector } from 'testcafe'
+fixture("First Fixture")
+    .page("http://devexpress.github.io/testcafe/");
 
-const developerName = Selector('#developer-name');
-const osOption = Selector('input#macos')
-const submitButton = Selector('#submit-button')
-
-fixture("First Fixture with TestCafe")
-    .page("https://devexpress.github.io/testcafe/");
-test.page("https://devexpress.github.io/testcafe/example")("First Test with TestCafe", async t => {
+test.page("https://devexpress.github.io/testcafe/example/")
+("First Test", async t =>{
     await t
-        .typeText(developerName,'TAU')
-        .click(osOption)
-        .click(submitButton);
-    });
+        .typeText("#developer-name","TAU")
+        .click("#macos")
+        .click("#submit-button");
+});
