@@ -1,14 +1,13 @@
-import { Selector } from 'testcafe';
-
-fixture `Select element manipulation`
-    .page `https://devexpress.github.io/testcafe/example/`;
+import {Selector} from 'testcafe';
 
 const interfaceSelect = Selector('select#preferred-interface');
-const interfaceOption = interfaceSelect.find('option');
+const interfaceOptions = interfaceSelect.find('option');
 
-test(`Select an option from the drop-down menu`, async t => {
+fixture("Select element from Dropdownlist")
+.page("https://devexpress.github.io/testcafe/example/");
+
+test('select element test', async t =>{
     await t
-        .maximizeWindow()
-        .click(interfaceSelect)
-        .click(interfaceOption.withText('Both'));
+    .click(interfaceSelect)
+    .click(interfaceOptions.withText('Both'));
 });
