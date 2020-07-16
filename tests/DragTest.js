@@ -1,13 +1,16 @@
-import { Selector, t } from 'testcafe';
+import { Selector } from 'testcafe';
 
-fixture `Example`
-.page `https://devexpress.github.io/testcafe/example/`;
+// Drag an element to a specified offset.
+
+const triedCheckbox = Selector("label").withText("I have tried TestCafe");
+
+fixture("Drag Fixture")
+.page("https://devexpress.github.io/testcafe/example/");
 
 test('Drag test', async t => {
-    const triedCheckbox = Selector('label').withText('I have tried TestCafe');
-
+ 
     await t
         .click(triedCheckbox)
-        .drag('#slider', 360, 0, { offsetX: 10, offsetY: 10 });
+        .setTestSpeed(0.1)
+        .drag("#slider",360,0,{offsetX:10,offsetX:10});
 });
-
