@@ -1,15 +1,17 @@
-import { Selector } from 'testcafe';
+import {Selector} from 'testcafe';
 
-fixture("Test Fixture with TestCafe")
+const developerName = Selector("#developer-name");
+const osOption = Selector("#macos");
+const submitButton = Selector("#submit-button");
+
+fixture("First Fixture")
     .page("https://devexpress.github.io/testcafe/example/");
 
-const developerName = Selector('#developer-name'); 
-
-    test("Assertion Test with TestCafe", async t => {
-    await t
+test("First Test", async t => {
+ await t
         .expect(developerName.value).eql('','input is empty')
-        .typeText(developerName,'TAU')
+        .typeText(developerName,"TAU")
         .expect(developerName.value).eql('TAU','input contains "TAU"')
-        .click('input#macos')
-        .click('#submit-button')        
-    });
+        .click(osOption)
+        .click(submitButton);
+});
