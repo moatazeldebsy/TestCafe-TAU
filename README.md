@@ -20,8 +20,7 @@ In order to follow this course, you will need
 The course is divided into the 10 different chapters and each chapter has an associated branch. The master branch without any UI tests. 
 
 * `Chapter 3` Branch --  Getting Started with TestCafe
-* `Chapter 4` Branch --  Exploring TestCafe
-* `Chapter 6` Branch --  Deep Dive with TestCafe
+* `Chapter 4` Branch --  Deep Dive with TestCafe
 * `Chapter 7` Branch --  Page Object Model with TestCafe
 * `Chapter 8` Branch --  Data-Driven Tests with TestCafe
 * `Chapter 9` Branch --  BDD Tests with TestCafe and CucumberJS
