@@ -1,0 +1,14 @@
+{
+    "browsers": "chrome",
+    "src": "tests",
+    "reporter": "list",
+    "screenshots": {
+        "path": "screenshots",
+        "takeOnFails": true,
+        "fullPage": true
+    },
+    "concurrency": 1,
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 1000
+}
