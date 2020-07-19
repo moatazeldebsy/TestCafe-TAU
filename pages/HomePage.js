@@ -1,4 +1,4 @@
-import { Selector,t,ClientFunction } from 'testcafe';
+import { Selector,t} from 'testcafe';
 
 class HomePage{
     constructor() {
@@ -10,10 +10,12 @@ class HomePage{
         this.CartLink = Selector('a').withText('Shopping cart')
         this.MyAccountLink = Selector('a').withText('My account')
         this.LogoutLink = Selector('a').withText('Log out');
-        this.currenyList = Selector("input[id='customerCurrency']")
+        this.currenyList = Selector("select#customerCurrency")
       }
-      get productSearch() { return Selector("input[id='small-searchterms']"); } 
-      
+      get productSearch() { 
+        return Selector("input[id='small-searchterms']"); 
+      } 
+
       async search(product) {
         await t.
         typeText(this.productSearch, product).
@@ -23,8 +25,8 @@ class HomePage{
     
       async changeCurrency(curreny){
         await t
-        .click('select#customerCurrency')
-        .click(Selector('option', { text: curreny }));
+         .click(currenyList)
+         .click(Selector('option', { text: curreny }));
     }
 }
 export default new HomePage();

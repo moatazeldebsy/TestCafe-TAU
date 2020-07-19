@@ -7,7 +7,7 @@ import customerpage from '../pages/CustomerPage';
 const URL = 'https://demo.nopcommerce.com/';
 const getURL = ClientFunction(() => window.location.href);
 var randomNumber = Math.floor(Math.random() * 10000);
-var userEmail = 'moataz'+randomNumber+'@nabil.com';
+var userEmail = 'moataz'+randomNumber+'@test.com';
 
 fixture`Registration Fixture`
     .page(URL);
