@@ -9,10 +9,10 @@ This repo contains the course material for the Test Automation University Course
 
 In order to follow this course, you will need 
  * macOS High Sierra or Mojave | Windows 10 
- * Visual Studio Code
+ * [Visual Studio Code](https://code.visualstudio.com/)
  * [NodeJS](https://nodejs.org/en/)
- * Github Account
- * Applitools API Key
+ * [Github Free Account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+ * [Applitools API Key](https://auth.applitools.com/users/register)
  
  
 # How to use this repository 
@@ -33,16 +33,19 @@ The course is divided into the 10 different chapters and each chapter has an ass
 You need to checkout the branch depending on the chapter you are on.
 
 ## Resources
+How TestCafe Works
 -  https://devexpress.github.io/testcafe/documentation/how-it-works/
 
-- https://nodejs.org/en/
-- https://code.visualstudio.com/
+Install TestCafe
 - https://devexpress.github.io/testcafe/
 - https://marketplace.visualstudio.com/search?term=testcafe&target=VSCode&category=All%20categories&sortBy=Relevance
+
+TestCafe Basics
 - https://devexpress.github.io/testcafe/documentation/guides/basic-guides/organize-tests.html#tests
 - https://devexpress.github.io/testcafe/documentation/guides/basic-guides/organize-tests.html#fixtures
 - https://devexpress.github.io/testcafe/documentation/getting-started/#creating-a-test
 
+Explore TestCafe features
 - https://devexpress.github.io/testcafe/documentation/guides/basic-guides/organize-tests.html#specify-the-start-webpage
 
 - https://devexpress.github.io/testcafe/documentation/guides/basic-guides/organize-tests.html#specify-test-metadata
@@ -114,7 +117,7 @@ TestCafe with GitHub Actions
 TestCafe with BrowserStack
 - https://browserstack.com
 - https://www.npmjs.com/package/testcafe-browser-provider-browserstack
-- https://devexpress.github.io/testcafe/documentation/guides/concepts/browsers.- html#browsers-in-cloud-testing-services
+- https://devexpress.github.io/testcafe/documentation/guides/concepts/browsers.html#browsers-in-cloud-testing-services
 
 TestCafe with Docker
 - https://devexpress.github.io/testcafe/documentation/guides/advanced-guides/use-testcafe-docker-image.html
@@ -125,6 +128,6 @@ TestCafe with Docker
 Run TestCafe on Remote Device
 - https://devexpress.github.io/testcafe/documentation/recipes/basics/test-on-remote-computers-and-mobile-devices.html
 
-Report Portal 
+TestCafe with Report Portal 
 - https://reportportal.io/docs
 https://github.com/redfox256/testcafe-reporter-reportportal
