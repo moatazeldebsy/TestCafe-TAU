@@ -1,25 +1,20 @@
 {
-  "name": "chapter9",
+  "name": "pagemodeldemo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --tags '@e2e' --format json:reports/report.json",
-    "report": "node report-generator.js"
+    "test": "cucumber-js --tags '@e2e' --format json:reports/report.json"
   },
-  "author": "Moataz Nabil",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
     "base64-img": "^1.0.4",
-    "eslint": "^4.19.1",
-    "npm": "^6.0.0",
-    "testcafe": "^1.1.0",
-    "testcafe-reporter-cucumber-json": "^5.1.0",
-    "testcafe-reporter-html": "^1.4.6"
+    "cucumber-html-reporter": "^5.2.0",
+    "testcafe": "^1.8.8"
   },
   "devDependencies": {
-    "cucumber": "^5.1.0",
-    "cucumber-html-reporter": "^5.2.0",
-    "eslint-config-google": "^0.9.1"
+    "cucumber": "^6.0.5"
   }
 }

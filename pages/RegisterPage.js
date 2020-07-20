@@ -1,10 +1,11 @@
-const {Selector} = require('testcafe');
+const {Selector} =  require('testcafe');
 
-function select(selector) {
-  return Selector(selector).with({boundTestRun: testController});
+function select(selector){
+    return Selector(selector).with({boundTestRun:testController})
 }
+
 exports.RegisterPage ={
-      GenderButton: function() {
+    GenderButton: function() {
         return select('#gender-male');
       },
 
@@ -24,6 +25,7 @@ exports.RegisterPage ={
       MonthOfBirth : function(){
         return select("select[name='DateOfBirthMonth']");
       },
+
       YearOfBirth : function(){
         return select("select[name='DateOfBirthYear']");
       },
