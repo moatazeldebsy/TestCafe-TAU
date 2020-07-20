@@ -34,8 +34,5 @@ You need to checkout the branch depending on the chapter you are on.
 
 ## Resources
 - https://devexpress.github.io/testcafe/documentation
-
-### References Projects
- - 
  
  
