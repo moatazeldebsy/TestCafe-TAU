@@ -33,6 +33,9 @@ The course is divided into the 10 different chapters and each chapter has an ass
 
 You need to checkout the branch depending on the chapter you are on.
 
+### Note: 
+In each branch you need to run `npm install` to add `node_modules` into the project and install required npm module. 
+
 ## Resources
 TestCafe Cheat Sheet
 - https://byrne-greg.github.io/testcafe-cheat-sheet/
