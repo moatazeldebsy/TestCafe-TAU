@@ -4,7 +4,7 @@
 
 This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
 
-![alt text](./images/summary.png)
+![alt text](https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/summary.png)
 
 # Pre-requisites
 
