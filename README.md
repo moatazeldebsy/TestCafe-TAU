@@ -137,4 +137,4 @@ Run TestCafe on Remote Device
 
 TestCafe with Report Portal 
 - https://reportportal.io/docs
-https://github.com/redfox256/testcafe-reporter-reportportal
+- https://github.com/redfox256/testcafe-reporter-reportportal
