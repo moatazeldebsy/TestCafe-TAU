@@ -4,6 +4,7 @@
 
 This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
 
+![alt text](./images/summary.png)
 
 # Pre-requisites
 
@@ -20,8 +21,7 @@ In order to follow this course, you will need
 The course is divided into the 10 different chapters and each chapter has an associated branch. The master branch without any UI tests. 
 
 * `Chapter 3` Branch --  Getting Started with TestCafe
-* `Chapter 4` Branch --  Exploring TestCafe
-* `Chapter 6` Branch --  Deep Dive with TestCafe
+* `Chapter 4` Branch --  Deep Dive with TestCafe
 * `Chapter 7` Branch --  Page Object Model with TestCafe
 * `Chapter 8` Branch --  Data-Driven Tests with TestCafe
 * `Chapter 9` Branch --  BDD Tests with TestCafe and CucumberJS
@@ -33,7 +33,13 @@ The course is divided into the 10 different chapters and each chapter has an ass
 
 You need to checkout the branch depending on the chapter you are on.
 
+### Note: 
+In each branch you need to run `npm install` to add `node_modules` into the project and also you need to install the required npm module based on the branch 
+
 ## Resources
+TestCafe Cheat Sheet
+- https://byrne-greg.github.io/testcafe-cheat-sheet/
+
 How TestCafe Works
 -  https://devexpress.github.io/testcafe/documentation/how-it-works/
 
@@ -131,4 +137,4 @@ Run TestCafe on Remote Device
 
 TestCafe with Report Portal 
 - https://reportportal.io/docs
-https://github.com/redfox256/testcafe-reporter-reportportal
+- https://github.com/redfox256/testcafe-reporter-reportportal
