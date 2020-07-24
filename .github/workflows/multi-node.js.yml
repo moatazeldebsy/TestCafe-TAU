@@ -1,7 +1,7 @@
 name: Target Multiple Node.js Versions and Operating Systems
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
