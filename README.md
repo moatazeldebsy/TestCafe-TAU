@@ -1,11 +1,13 @@
 # TestCafe-TAU (Test Automation University) Course :rocket:
 [![Tested with TestCafe](https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg)](https://github.com/DevExpress/testcafe)
 
-![Basic TestCafe Workflow](https://github.com/moatazeldebsy/TestCafe-TAU/workflows/Basic%20TestCafe%20Workflow/badge.svg?branch=chapter12)
-
-![Target Multiple Node.js Versions and Operating Systems](https://github.com/moatazeldebsy/TestCafe-TAU/workflows/Target%20Multiple%20Node.js%20Versions%20and%20Operating%20Systems/badge.svg?branch=chapter12)
+<p align="center">
+<img src="https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/testcafe.png" width="45%">
+</p>
 
 This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
+
+
 
 ![alt text](https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/summary.png)
 
