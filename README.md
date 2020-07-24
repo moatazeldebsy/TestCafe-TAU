@@ -3,6 +3,8 @@
 
 ![Basic TestCafe Workflow](https://github.com/moatazeldebsy/TestCafe-TAU/workflows/Basic%20TestCafe%20Workflow/badge.svg?branch=chapter12)
 
+![Target Multiple Node.js Versions and Operating Systems](https://github.com/moatazeldebsy/TestCafe-TAU/workflows/Target%20Multiple%20Node.js%20Versions%20and%20Operating%20Systems/badge.svg?branch=chapter12)
+
 This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
 
 ![alt text](https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/summary.png)
