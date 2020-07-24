@@ -2,7 +2,7 @@
 [![Tested with TestCafe](https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg)](https://github.com/DevExpress/testcafe)
 
 <p align="center">
-<img src="https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/testcafe.png" width="40%">
+<img src="https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/testcafe.png" width="45%">
 </p>
 
 This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
