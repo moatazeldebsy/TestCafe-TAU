@@ -23,7 +23,7 @@ In order to follow this course, you will need
  
 # How to use this repository 
 
-The course is divided into the 10 different chapters and each chapter has an associated branch. The master branch without any UI tests. 
+The course is divided into the 9 different chapters and each chapter has an associated branch. The master branch without any UI tests. 
 
 * `Chapter 3` Branch --  Getting Started with TestCafe
 * `Chapter 4` Branch --  Deep Dive with TestCafe
@@ -31,9 +31,8 @@ The course is divided into the 10 different chapters and each chapter has an ass
 * `Chapter 8` Branch --  Data-Driven Tests with TestCafe
 * `Chapter 9` Branch --  BDD Tests with TestCafe and CucumberJS
 * `Chapter 10` Branch -- Reporting with TestCafe
-* `Chapter 11` Branch -- TestCafe Visual Validation with Applitools
+* `Chapter 11` Branch -- TestCafe Visual Validation with Applitools Ultra Grid
 * `Chapter 12` Branch -- Integrate TestCafe with GitHub Actions
-* `Chapter 13` Branch -- Run TestCafe Tests on Applitools Ultrafast Grid
 * `Chapter 14` Branch -- Use TestCafe Docker Image
 
 You need to checkout the branch depending on the chapter you are on.
@@ -111,7 +110,9 @@ testCafe Reporter
 Allure Report
 - https://github.com/isaaceindhoven/testcafe-reporter-allure
 
-Applitools and TestCafe
+TestCafe with Applitools Ultrafast Grid
+- https://applitools.com/docs/topics/overview/using-the-ultrafast-grid.html
+- https://applitools.com/docs/topics/overview/overview-writing-tests-with-vg.html
 - https://applitools.com/tutorials/testcafe.html
 - https://github.com/applitools/eyes-testcafe
 
@@ -125,11 +126,6 @@ TestCafe with GitHub Actions
 - https://github.com/marketplace/actions/run-testcafe
 - https://devexpress.github.io/testcafe/documentation/reference/command-line-interface.html
 - https://github.com/moatazeldebsy/TestCafe-Github-Action/blob/master/.github/workflows/nodejs.yml
-
-TestCafe with Applitools Ultrafast Grid
-- https://applitools.com/docs/topics/overview/using-the-ultrafast-grid.html
-- https://applitools.com/docs/topics/overview/overview-writing-tests-with-vg.html
-
 
 TestCafe with Docker
 - https://devexpress.github.io/testcafe/documentation/guides/advanced-guides/use-testcafe-docker-image.html
