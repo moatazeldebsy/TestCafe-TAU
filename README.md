@@ -33,7 +33,7 @@ The course is divided into the 10 different chapters and each chapter has an ass
 * `Chapter 10` Branch -- Reporting with TestCafe
 * `Chapter 11` Branch -- TestCafe Visual Validation with Applitools
 * `Chapter 12` Branch -- Integrate TestCafe with GitHub Actions
-* `Chapter 13` Branch -- Run TestCafe Tests on SauceLabs
+* `Chapter 13` Branch -- Run TestCafe Tests on Applitools Ultrafast Grid
 * `Chapter 14` Branch -- Use TestCafe Docker Image
 
 You need to checkout the branch depending on the chapter you are on.
@@ -126,10 +126,10 @@ TestCafe with GitHub Actions
 - https://devexpress.github.io/testcafe/documentation/reference/command-line-interface.html
 - https://github.com/moatazeldebsy/TestCafe-Github-Action/blob/master/.github/workflows/nodejs.yml
 
-TestCafe with BrowserStack
-- https://browserstack.com
-- https://www.npmjs.com/package/testcafe-browser-provider-browserstack
-- https://devexpress.github.io/testcafe/documentation/guides/concepts/browsers.html#browsers-in-cloud-testing-services
+TestCafe with Applitools Ultrafast Grid
+- https://applitools.com/docs/topics/overview/using-the-ultrafast-grid.html
+- https://applitools.com/docs/topics/overview/overview-writing-tests-with-vg.html
+
 
 TestCafe with Docker
 - https://devexpress.github.io/testcafe/documentation/guides/advanced-guides/use-testcafe-docker-image.html
