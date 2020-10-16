@@ -103,7 +103,7 @@ TestCafe with Cucumber and BDD
 
 - https://github.com/rquellh/testcafe-cucumber
 
-testCafe Reporter
+TestCafe Reporter
 - https://devexpress.github.io/testcafe/documentation/guides/concepts/reporters.html#search-for-reporter-plugins
 - https://www.npmjs.com/package/testcafe-reporter-html
 
