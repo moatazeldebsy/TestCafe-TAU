@@ -129,7 +129,7 @@ TestCafe with GitHub Actions
 TestCafe with Applitools Ultrafast Grid
 - https://applitools.com/docs/topics/overview/using-the-ultrafast-grid.html
 - https://applitools.com/docs/topics/overview/overview-writing-tests-with-vg.html
-s
+
 
 TestCafe with Docker
 - https://devexpress.github.io/testcafe/documentation/guides/advanced-guides/use-testcafe-docker-image.html
