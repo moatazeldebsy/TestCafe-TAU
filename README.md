@@ -5,7 +5,8 @@
 <img src="https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/testcafe.png" width="45%">
 </p>
 
-This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
+This repo contains the course material for the Test Automation University Course [Introduction to E2E Web Testing using TestCafe](
+https://testautomationu.applitools.com/testcafe-tutorial/)
 
 
 
