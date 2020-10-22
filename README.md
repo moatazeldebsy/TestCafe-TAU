@@ -5,11 +5,9 @@
 <img src="https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/testcafe.png" width="45%">
 </p>
 
-This repo contains the course material for the Test Automation University Course `Introduction to E2E Web Testing using TestCafe` 
+This repo contains the course material for the Test Automation University Course [Introduction to E2E Web Testing using TestCafe](
+https://testautomationu.applitools.com/testcafe-tutorial/)
 
-
-
-![alt text](https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/summary.png)
 
 # Pre-requisites
 
@@ -103,7 +101,7 @@ TestCafe with Cucumber and BDD
 
 - https://github.com/rquellh/testcafe-cucumber
 
-testCafe Reporter
+TestCafe Reporter
 - https://devexpress.github.io/testcafe/documentation/guides/concepts/reporters.html#search-for-reporter-plugins
 - https://www.npmjs.com/package/testcafe-reporter-html
 
