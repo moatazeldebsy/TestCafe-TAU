@@ -9,9 +9,6 @@ This repo contains the course material for the Test Automation University Course
 https://testautomationu.applitools.com/testcafe-tutorial/)
 
 
-
-![alt text](https://github.com/moatazeldebsy/TestCafe-TAU/blob/master/images/summary.png)
-
 # Pre-requisites
 
 In order to follow this course, you will need 
