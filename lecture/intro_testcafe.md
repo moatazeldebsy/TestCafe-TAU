@@ -34,15 +34,17 @@
 - Test code can't interrupt the page execution, because TestCafe doesn't inject user-written code
 - The latest syntax features like async/await are supported also with TestCafe
 
-#### Main types of interaction of TestCafe API :
+#### Main types of interaction of TestCafe API
 - Select elements
 - Perform actions
 - Execute assertions
 
 #### Other important features
+- NodeJS is required to install TestCafe
+- TestCafe is using a URL-rewriting proxy instead of WebDriver
 - TestCafe isolates each test run from subsequent tests and tests that run in parallel.
 - After a test is completed, TestCafe resets the browser state:
-  -  Deletes cookies
+  - Deletes cookies
   - Clear local and session storages
   - Reloads the tested page
 
