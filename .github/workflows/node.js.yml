@@ -11,3 +11,4 @@ jobs:
         uses: DevExpress/testcafe-action@latest
         with:
           args: "chrome tests"
+          
