@@ -7,7 +7,7 @@ class CheckoutPage{
         this.addressTxt = Selector("input[id='BillingNewAddress_Address1']")
         this.zipTxt = Selector("input[id='BillingNewAddress_ZipPostalCode']")
         this.phoneTxt = Selector("input[id='BillingNewAddress_PhoneNumber']")
-        this.continueBtn = Selector('input.button-1.new-address-next-step-button')
+        this.continueBtn = Selector('button.button-1.new-address-next-step-button') //changed
         this.nextDayOption = Selector("input[id='shippingoption_1']")
         this.nextShippingBtn = Selector('input.button-1.shipping-method-next-step-button')
         this.nextPaymentBtn = Selector('input.button-1.payment-method-next-step-button')
